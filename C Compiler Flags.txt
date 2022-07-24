@@ -1,5 +1,4 @@
 ## C Compiler Flags:
-
 #---------------------------------------------------------------------------------------------#
 -w
     Inhibit all warning messages.
@@ -21,7 +20,6 @@
 -Wpedantic
 -pedantic
     Issue all the warnings demanded by strict ISO C and ISO C++; reject all programs that use forbidden extensions, and some other programs that do not follow ISO C and ISO C++. 
-
 #---------------------------------------------------------------------------------------------#
 -Wdouble-promotion 
 	if your MCU cann't support "double precision floating point number", then generate warning if convert value or variable to double  
